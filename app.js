@@ -9,7 +9,7 @@ connectDB();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("User Management API is running");
+  res.send("List API is running");
 });
 
 // app.use("/api/users", userRouter);
